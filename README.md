@@ -6,6 +6,7 @@ and [these](https://danielbiegler.github.io/visualize-dna-sequences/) [clones](h
 I, relatively unskilled in python, set out on my first major project, a script that would visualize a DNA sequence in a graphical format.
 
 And after a few hours of trial and error, frustrating debugging and frequent use of [stackoverflow](https://stackoverflow.com), it's done.
+![Visualisation of Ebola Virus](https://raw.githubusercontent.com/logwet/genome-imager/master/example.png "Visualisation of Ebola Virus")
 
 **Usage:**
 
@@ -15,7 +16,8 @@ And after a few hours of trial and error, frustrating debugging and frequent use
 4. Done! A PNG image will be generated with the same name as the source data. *NOTE: Depending on the size of your source data, this process may be both time and memory consuming*
 
 There are several sample .fasta files provided. `ebola.fasta`, `random.fasta`, which is a completely random DNA sequence and `otauri.fasta`, which is the DNA sequence of *Ostreococcus tauri*, a species of green algae.
-#### Details:
+
+**Details:**
 
 A (Adenine), T (Thymine), G (Guanine) and C (Cytosine) are represented with a green, red, pink and blue pixel and move the path up, down, left and right respectively. N (not-known) is a black pixel and doesn't move the path.
 
