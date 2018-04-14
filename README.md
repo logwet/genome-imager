@@ -9,6 +9,12 @@ And after a lot of work, frustrating debugging and frequent use of [stackoverflo
 
 ![Visualisation of Ebola Virus](https://raw.githubusercontent.com/logwet/genome-imager/master/Examples/ebola.png "Visualisation of Ebola Virus")
 
+**Prerequisites:**
+
+- 64 bit version of Python 3.6
+- Or: Windows
+- PIL/PILLOW
+
 **Usage:**
 
 - *Run this program in a 64 bit version of Python! A 32 bit version is only able to access 4 GB of memory, which is far too little to run this program
