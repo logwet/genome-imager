@@ -10,7 +10,7 @@ from argparse import ArgumentParser
 from copy import deepcopy, copy
 from datetime import timedelta
 from math import ceil
-from os import remove
+from os import remove, makedirs
 from os.path import exists
 from re import sub
 from time import time
@@ -48,6 +48,8 @@ if not exists(filepath):
 print("Debug at %s" % debugpath)
 if exists(debugpath):
     remove(debugpath)
+if not exists(cachedir):
+    makedirs(cachedir)
 logging.basicConfig(filename=debugpath, level=logging.DEBUG)
 logging.info("Init: %d" % uuid)
 
